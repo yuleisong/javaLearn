@@ -1,0 +1,6 @@
+public class Manager extends Employee {
+	public Manager(int _age) {
+		super(_age);
+		// 因为 Employee 没有仅仅使用默认的构造方法，所以这里也要写明，不然会编译错误
+	}
+}
